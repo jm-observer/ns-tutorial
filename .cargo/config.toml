@@ -1,0 +1,8 @@
+[build]
+target = "x86_64-unknown-linux-musl"
+
+[profile.release]
+lto = true
+opt-level = 's'
+debug = false
+strip = true
